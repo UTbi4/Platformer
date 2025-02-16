@@ -306,7 +306,7 @@ class Crab(pg.sprite.Sprite):
                 self.rect.right = platform.rect.left
             if platform.rect.collidepoint(self.rect.midleft):
                 self.rect.left = platform.rect.right
-
+# Класс Игры
 class Game:
     def __init__(self):
         self.screen = pg.display.set_mode((screen_width, screen_height))
